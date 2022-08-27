@@ -9,7 +9,7 @@ const Home = () => {
       )
       const data = await response.json()
       setWorkouts(data)
-      console.log(data)
+      console.log(data) 
     }
     fetchAllWorkout()
   }, [])
